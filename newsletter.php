@@ -13,7 +13,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
              "X-Mailer: PHP/" . phpversion();
 
   if (mail($to, $subject, $message, $headers)) {
-    echo "<div>Email transmis à l'équipe commerciale, vous serez recontacté au plus vite !</div>";
+    echo "<div>Email transmis à notre équipe, vous serez recontacté au plus vite !</div>";
   } else {
     echo "<div>Formulaire désactivé veuillez utiliser l'email.</div>";
   }
